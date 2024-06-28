@@ -10,6 +10,7 @@ namespace MagicVilla_API.Datos
 
         }
         public DbSet<Villa> Villa { get; set; }
+        public DbSet<NumeroVilla> NumeroVilla { get; set; }
 
         //Inyecta informacion en la base de datos requiere de add-migration name y update-database
         protected override void OnModelCreating(ModelBuilder modelBuilder)
